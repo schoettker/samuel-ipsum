@@ -37,3 +37,11 @@ img {
 .extracontent a {
   color: grey;
 }
+@media screen and (max-width: 786px){
+  .extracontent {
+    display: none;
+  }
+  .wrap {
+    width: 400px;
+  }
+}
