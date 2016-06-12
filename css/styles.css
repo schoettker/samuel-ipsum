@@ -1,18 +1,39 @@
 body {
   font-family: sans-serif;
+  background-color: #f3ff7d;
 }
 .wrap {
   text-align: center;
   width: 786px;
   margin: 0 auto;
+  background-color: #322F30;
+  border-radius: 10px;
 }
 nav {
-  background-color: red;
+  background-color: #322F30;
   text-align: center;
   margin-top: 0;
+  height: 60px;
+  border-radius: 10px;
 }
-a {
+.navlinks a {
   padding: 30px;
   text-decoration: none;
   color: white;
+  line-height: 4;
+}
+p {
+  color: grey;
+  padding: 25px;
+}
+h2,h3 {
+  color: #595456;
+}
+img {
+  float: right;
+  margin: 25px;
+  border-radius: 4px;
+}
+.extracontent a {
+  color: grey;
 }
