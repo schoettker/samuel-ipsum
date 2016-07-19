@@ -2,9 +2,12 @@ body {
   font-family: sans-serif;
   background-color: #f3ff7d;
 }
-.wrap {
+.container {
+  width: 90%;
+  margin: auto;
+}
+.content {
   text-align: center;
-  width: 786px;
   margin: 0 auto;
   background-color: #322F30;
   border-radius: 10px;
@@ -30,19 +33,26 @@ h2,h3 {
   color: #595456;
 }
 img {
+  margin:25px;
+  position: fixed;
+  border-radius: 10px;
   float: right;
-  margin: 25px;
-  border-radius: 4px;
+  display: inline;
+  right: 0;
 }
+
 .extracontent a {
   color: grey;
 }
-@media screen and (max-width: 786px){
+@media screen and (max-width: 768px){
   .extracontent {
     display: none;
   }
-  .wrap {
+  .content {
     width: 400px;
+  }
+  img {
+    display: none;
   }
 }
 
@@ -56,5 +66,10 @@ img {
   h2,
   p {
     color: black;
+  }
+}
+@media only screen and (min-width: 1024px){
+  .container {
+    width: 900px;
   }
 }
