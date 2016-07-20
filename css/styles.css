@@ -1,75 +1,69 @@
 body {
-  font-family: sans-serif;
-  background-color: #f3ff7d;
+    font-family: sans-serif;
+    background-color: #f3ff7d;
 }
 .container {
-  width: 90%;
-  margin: auto;
+    width: 90%;
+    margin: auto;
 }
 .content {
-  text-align: center;
-  margin: 0 auto;
-  background-color: #322F30;
-  border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #322F30;
+    border-radius: 10px;
 }
 nav {
-  background-color: #322F30;
-  text-align: center;
-  margin-top: 0;
-  height: 60px;
-  border-radius: 10px;
+    background-color: #322F30;
+    text-align: center;
+    margin-top: 0;
+    height: 60px;
+    border-radius: 10px;
 }
 .navlinks a {
-  padding: 30px;
-  text-decoration: none;
-  color: white;
-  line-height: 4;
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    line-height: 4;
 }
 p {
-  color: grey;
-  padding: 25px;
+    color: grey;
+    padding: 25px;
 }
-h2,h3 {
-  color: #595456;
+h2, h3 {
+    color: #595456;
 }
 img {
-  margin:25px;
-  position: fixed;
-  border-radius: 10px;
-  float: right;
-  display: inline;
-  right: 0;
+    margin: 25px;
+    position: fixed;
+    border-radius: 10px;
+    float: right;
+    display: inline;
+    right: 0;
 }
-
 .extracontent a {
-  color: grey;
+    color: grey;
 }
-@media screen and (max-width: 768px){
-  .extracontent {
-    display: none;
-  }
-  .content {
-    width: 400px;
-  }
-  img {
-    display: none;
-  }
+@media screen and (max-width: 768px) {
+    .extracontent {
+        display: none;
+    }
+    .content {
+        width: 400px;
+    }
+    img {
+        display: none;
+    }
 }
-
 @media print {
-
-  .extracontent,
-  img,
-  nav {
-    display: none;
-  }
-  h2,
-  p {
-    color: black;
-  }
+    .extracontent, img, nav {
+        display: none;
+    }
+    h2, p {
+        color: black;
+    }
 }
-@media only screen and (min-width: 1024px){
-  .container {
-    width: 900px;
-  }
+@media only screen and (min-width: 1024px) {
+    .container {
+        width: 900px;
+    }
 }
